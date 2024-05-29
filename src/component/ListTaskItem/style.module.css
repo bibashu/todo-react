@@ -1,0 +1,29 @@
+.list{
+    list-style: none;
+ 
+    
+}
+.listItem{
+    background-color: white;
+    width: 100%;
+    margin: 20px 0;
+    padding: 8px 15px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: start;
+    position: relative;
+}
+.delete{
+    position:absolute;
+    right: 10px;
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
+.check{
+    position:absolute;
+    right: 40px;
+    font-size: 20px;
+    color: green;
+    cursor: pointer;
+}
